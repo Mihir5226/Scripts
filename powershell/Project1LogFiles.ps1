@@ -1,4 +1,4 @@
-﻿$filepath = "C:\Users\Administrator\Desktop\testing1.txt"
+﻿$filepath = "C:\Users\Administrator\Desktop\logfile.txt"
 $event = get-eventlog -LogName System -EntryType Error | Out-File -FilePath $filepath
 $fromaddress = "patelm7@Mail.uc.edu" 
 $toaddress = "patelm7@mail.uc.edu" 
