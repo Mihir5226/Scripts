@@ -9,7 +9,7 @@
 ## About
 
 The script is a powershell script,used for getting system error log files from the event log.
-The error logs are then saved into a txt file on the computer "C:\" and sent as an attachment through email.
+The error logs are then saved into a txt file on the computer "C:\" drive and sent as an attachment through email.
 
 ## Documentation
 1. Download the Project 1 file.
