@@ -17,8 +17,9 @@ The error logs are then saved into a txt file on the computer "C:\" drive and se
 3. Open the project 1 file in the Powershell ISE.
 4. Change the receivers email address.
 5. Save the script.
-6. Click on the run button
+6. Click on the run button.
 7. Enter email and password. 
+8. The email receiver should get an attachement with the system error logfiles.
 
 ## Links
 [Project 1](https://github.uc.edu/patelm7/it3038c-scripts/blob/master/powershell/Project1LogFiles.ps1)
