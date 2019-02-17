@@ -1,9 +1,10 @@
-﻿$filepath = "C:\Users\Administrator\Desktop\logfile.txt"
+﻿$createfile = New-Item -path "C:\" -Name "logfile.txt" -ItemType "file"
+$filepath = "C:\logfile.txt"
 $event = get-eventlog -LogName System -EntryType Error | Out-File -FilePath $filepath
 $fromaddress = "patelm7@Mail.uc.edu" 
 $toaddress = "patelm7@mail.uc.edu" 
 $Subject = "Test message" 
-$body = "Please find attached - test"
+$body = "Please find attached for the logfiles"
 $attachment = $filepath
 $smtpserver = "smtp.office365.com" 
 $emailPort = "587"
