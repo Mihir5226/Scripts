@@ -1,6 +1,6 @@
 # it3038c-scripts
 
-Project 1
+## Project 1
 
 Script name is project1LogFiles.ps1
 
