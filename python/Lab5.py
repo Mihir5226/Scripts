@@ -1,8 +1,8 @@
-word = input("Please enter a sentence: ")
+word = input("Please enter a word: ")
 
 removedSpacesWord = word.replace(" ", "")
 
-print("Total length of sentence = ", len(removedSpacesWord))
+print("Total length of word = ", len(removedSpacesWord))
 
 countVowels =0
 countConsonants =0
