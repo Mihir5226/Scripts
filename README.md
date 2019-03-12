@@ -4,11 +4,11 @@
 ## LAB 7 Example
 
 This is a Python script which uses a plugin called numpy.First,Lets create a Virtual ENV called scripts.
-   
+   ```
    virtualenv /venv/numpy
    source /venv/scripts/activate
    pip install numpy
-   
+   ```
 You can type python and then type 
   ```
   >>>import numpy as np
@@ -19,11 +19,11 @@ You can type python and then type
 This will display the array based on above variable numarray.
 
 You can run sereval commands to show the size,shape,the type of elements in the array. 
-
+```
    numarray.size
    numarray.shape
    numarray.dtype.name
-   
+ ```  
    
    
 
