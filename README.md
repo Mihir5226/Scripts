@@ -10,9 +10,9 @@ This is a Python script which uses a plugin called numpy.First,Lets create a Vir
    pip install numpy
    
 You can type python and then type 
-  > import numpy as np
-  > numarray =np.arange(20).reshape(4,5)
-  > numarray
+  <p> import numpy as np </p>
+  <p> numarray =np.arange(20).reshape(4,5) </p>
+  <p> numarray </p>
    
 This will display the array based on above variable numarray.
 
