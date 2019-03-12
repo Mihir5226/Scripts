@@ -3,7 +3,7 @@
 
 ## LAB 7 Example
 
-This is a Python script which uses a plugin called numpy.First,Lets create a Virtual ENV called scripts.
+This is a Python script which uses a plugin called numpy.This plugin is used for powerful scientific computing.First,Lets create a Virtual ENV called scripts.
    ```
    virtualenv /venv/numpy
    source /venv/scripts/activate
@@ -24,6 +24,12 @@ You can run sereval commands to show the size,shape,the type of elements in the 
    numarray.shape
    numarray.dtype.name
  ```  
+ 
+ Don't forget to deactivate your virtualenv when you're done
+ 
+ ```
+    deactivate
+ ```
    
    
 
