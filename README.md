@@ -26,11 +26,20 @@ choco install -y python3
 yum -y install python36u-pip
 pip3.6 install --upgrade pip
 ```
-6.Install
+6.Install request by typing the following command in powershell
+```
+pip install requests
+```
+7.Install bs4 by typing the following command in powershell
+```
+pip install bs4
+```
+8.Run the project2.py script in visual studio code.The top headline should be displayed.
 
-6. Click on the run button.
-7. Enter email and password. 
-8. The email receiver should get an attachement with the system error logfiles.
+
+## Links
+[Project 2](https://github.uc.edu/patelm7/it3038c-scripts/blob/master/python/Project2.py)
+
 
 
 # it3038c-scripts
