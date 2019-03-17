@@ -14,14 +14,20 @@ The headline are displayed once the script is executed.
 2. Open in visual studio code. 
 3. Make sure chocolatey is installed,if not installed run the following in powershell
 ```
-Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object            System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object   System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 
 ```
 4. Make sure python3 is installed, if not installed run the following command in powershell
 ```
 choco install -y python3
 ```
-5. Save the script.
+5. Make sure pip is installed, if not installed run the following command
+```
+yum -y install python36u-pip
+pip3.6 install --upgrade pip
+```
+6.Install
+
 6. Click on the run button.
 7. Enter email and password. 
 8. The email receiver should get an attachement with the system error logfiles.
