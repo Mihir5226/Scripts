@@ -9,14 +9,14 @@ The script is a python webscraping script.The script get top Tech headlines from
 ## Documentation
 1. Download the lab 8 file.
 2. Open in visual studio code. 
-3.Install request by typing the following command in powershell
-```
-pip install requests
-```
-4.Install bs4 by typing the following command in powershell
-```
-pip install bs4
-```
+3. Install request by typing the following command in powershell/Visual studio Code
+  ```
+  pip install requests
+  ```
+4.Install bs4 by typing the following command in powershell/Visual studio Code
+ ```
+ pip install bs4
+ ```
 5.Run the project2.py script in visual studio code.The top headline should be displayed.
 
 ## Links
