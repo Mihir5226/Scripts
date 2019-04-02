@@ -1,3 +1,26 @@
+## Lab 8
+
+### Script Name
+ Lab8.py
+ 
+## About
+The script is a python webscraping script.The script get top Tech headlines from the verge website.
+
+## Documentation
+1. Download the lab 8 file.
+2. Open in visual studio code. 
+3.Install request by typing the following command in powershell
+```
+pip install requests
+```
+4.Install bs4 by typing the following command in powershell
+```
+pip install bs4
+```
+5.Run the project2.py script in visual studio code.The top headline should be displayed.
+
+## Links
+[lab 8](https://github.uc.edu/patelm7/it3038c-scripts/blob/master/python/Lab8.py)
 
 ## Project 2
 
