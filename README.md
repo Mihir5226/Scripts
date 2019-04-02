@@ -20,7 +20,7 @@ The script is a python webscraping script.The script get top Tech headlines from
 5. Run the project2.py script in visual studio code.The top headline should be displayed.
 
 ## Links
-[lab 8](https://github.uc.edu/patelm7/it3038c-scripts/blob/master/python/Lab8.py)
+[lab 8](https://github.uc.edu/patelm7/it3038c-scripts/blob/master/python/lab8.py)
 
 ## Project 2
 
