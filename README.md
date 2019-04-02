@@ -1,4 +1,47 @@
 
+## Project 2
+
+### Script Name
+ project2.py
+ 
+## About
+
+The script is a pythonscript,used for getting top headline from google news rss website.
+The headline are displayed once the script is executed.
+
+## Documentation
+1. Download the Project 2 file.
+2. Open in visual studio code. 
+3. Make sure chocolatey is installed,if not installed run the following in powershell
+```
+Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object   System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+
+```
+4. Make sure python3 is installed, if not installed run the following command in powershell
+```
+choco install -y python3
+```
+5. Make sure pip is installed, if not installed run the following command
+```
+yum -y install python36u-pip
+pip3.6 install --upgrade pip
+```
+6.Install request by typing the following command in powershell
+```
+pip install requests
+```
+7.Install bs4 by typing the following command in powershell
+```
+pip install bs4
+```
+8.Run the project2.py script in visual studio code.The top headline should be displayed.
+
+
+## Links
+[Project 2](https://github.uc.edu/patelm7/it3038c-scripts/blob/master/python/Project2.py)
+
+
+
 # it3038c-scripts
 
 ## LAB 7 Example
