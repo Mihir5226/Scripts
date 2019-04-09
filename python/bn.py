@@ -7,3 +7,4 @@ title =soup.find("h1", {"class":"pdp-header-title"})
 
 span =soup.find("span",id="pdp-cur-price")
 print("item is %s and is %s"%(title.text,span.text))
+

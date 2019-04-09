@@ -1,4 +1,4 @@
-var tinycolor = require('tinycolor');
+var tinycolor = require('tinycolor2');
 
 var color = tinycolor("red");
 color.getFormat();
