@@ -1,3 +1,14 @@
+## Lab 9
+
+### Script Name
+ Lab9.py
+ 
+## About
+The python script calls on node api script and returns a list of widget names and their respective colors. The best way to run the script is run both  script is a python webscraping script.The script get top Tech headlines from the verge website.
+
+
+
+
 ## Lab 8
 
 ### Script Name
