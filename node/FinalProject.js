@@ -1,5 +1,5 @@
 var http = require("http");
-var data = require("C:/Users/Administrator/Downloads");
+var data = require("C:/data.json");
 
 var server = http.createServer(function(req,res)
 {
@@ -10,8 +10,6 @@ var server = http.createServer(function(req,res)
 
     }
 
-  
-
     else
     {
         res.writeHead(404,{"Content-Type":"text/plain"});
@@ -20,5 +18,5 @@ var server = http.createServer(function(req,res)
 });
 
 
-server.listen(3001);
+server.listen(3000);
 console.log("Server is listening on port 3000");
