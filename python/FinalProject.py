@@ -1,6 +1,6 @@
 import pygame
 import json
-with open("C:\data.json") as json_data:
+with open("C:\data.json") as json_data:  #opens json file using open() function and parses the file using json.load() method
     d=json.load(json_data)
     
 
@@ -11,27 +11,28 @@ if(nameofState=="Alabama"):
 
     pygame.init()  #initiates pygame module 
 
-    display_width = 600
+    display_width = 600    #defines the size of the window
     display_height = 400
 
-    gameDisplay = pygame.display.set_mode((display_width,display_height)) #sets the size of the window
+    stateWindow = pygame.display.set_mode((display_width,display_height)) #sets the size of the window
     pygame.display.set_caption('State Image') #Name of window
 
     white = (255,255,255)  #defines the color of the window
 
     
     show = True
-    stateImg = pygame.image.load('c:/Alabama.jpg')
+    stateImg = pygame.image.load('c:/Alabama.jpg')  #gets image from c: directory
 
-    def displayImg(x,y):
-        gameDisplay.blit(stateImg, (x,y))
-
+    
     x =  (display_width/3.5)
     y = (display_height/3)
+    def displayImg(x,y):                #This function take two parameters x and y and display the stateimage at the x and y cordinates
+        stateWindow.blit(stateImg, (x,y))
+
 
     while show:
-        gameDisplay.fill(white)  #fill window with white color
-        displayImg(x,y)          #display image at x,y 
+        stateWindow.fill(white)  #fill window with white color
+        displayImg(x,y)          #calls the display image function to display stateImg at x,y 
         pygame.display.update()  #updates window
         
 
@@ -54,7 +55,7 @@ elif(nameofState=="California"):
     display_width = 800
     display_height = 600
 
-    gameDisplay = pygame.display.set_mode((display_width,display_height))
+    stateWindow = pygame.display.set_mode((display_width,display_height))
     pygame.display.set_caption('State Image')
 
     white = (255,255,255)
@@ -63,13 +64,13 @@ elif(nameofState=="California"):
     stateImg = pygame.image.load('c:/California.jpg')
 
     def displayImg(x,y):
-        gameDisplay.blit(stateImg, (x,y))
+        stateWindow.blit(stateImg, (x,y))
 
     x =  (display_width / 4)
     y = (display_height /4)
 
     while show:
-        gameDisplay.fill(white)  #fill window with white color
+        stateWindow.fill(white)  #fill window with white color
         displayImg(x,y)          #display image at x,y 
         pygame.display.update()  #updates window
         
@@ -90,10 +91,10 @@ elif(nameofState=="Ohio"):
     display_width = 800
     display_height = 600
 
-    gameDisplay = pygame.display.set_mode((display_width,display_height))
+    stateWindow = pygame.display.set_mode((display_width,display_height))
     pygame.display.set_caption('State Image')
 
-    black = (0,0,0)
+    
     white = (255,255,255)
 
     
@@ -101,13 +102,13 @@ elif(nameofState=="Ohio"):
     stateImg = pygame.image.load('c:/Ohio.jpg')
 
     def displayImg(x,y):
-        gameDisplay.blit(stateImg, (x,y))
+        stateWindow.blit(stateImg, (x,y))
 
     x =  (display_width/3)
     y = (display_height/4)
 
     while show:
-        gameDisplay.fill(white)  #fill window with white color
+        stateWindow.fill(white)  #fill window with white color
         displayImg(x,y)          #display image at x,y 
         pygame.display.update()  #updates window
         
@@ -121,7 +122,7 @@ elif(nameofState=="Ohio"):
     quit() #quit the program
 
 else: 
-    print ('Enter a valid state')
+    print ('Invalid State')
 
 
 
