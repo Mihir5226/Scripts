@@ -6,7 +6,19 @@
 ## About
 The python script loads a local file using the Json module.The Json file has US state names and their population estimates.When the script is executed the user has to input California,Texas,Florida,New York or Illinois(Top 5 populated states) to get the population estimated.The script also uses the pygame module to display a window with an image of each state inputted.
 
-
+## Documentation
+1.Downlaod the FinalProject.py script from Python folder.
+2.Download the data.json file and save it on your C://
+3.Download California.jpeg,Texas.jpeg,Florida.jpeg,NewYork.jpeg and Illinois.Jpeg, save them in your C://
+4.Install Json module by typing the following command in powershell/Visual studio Code
+  ```
+  pip install Json
+  ```
+5.Install Pygame module by typing the following command in powershell/Visual studio Code
+  ```
+  pip install Pygame
+  ```
+6.Run the FinalProject.py script in visual studio code.You should be prompted to Input the states named above.
 
 
 ## Lab 8
