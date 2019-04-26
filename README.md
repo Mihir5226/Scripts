@@ -1,10 +1,10 @@
-## Lab 9
+## Final Project
 
 ### Script Name
- Lab9.py
+ FinalProject.py
  
 ## About
-The python script calls on node api script and returns a list of widget names and their respective colors. The best way to run the script is run both  script is a python webscraping script.The script get top Tech headlines from the verge website.
+The python script loads a local file using the Json module.The Json file has US state names and their population estimates.When the script is executed the user has to input California,Texas,Florida,New York or Illinois(Top 5 populated states) to get the population estimated.The script also uses the pygame module to display a window with an image of each state inputted.
 
 
 
