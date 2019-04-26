@@ -9,7 +9,7 @@ The python script loads a local file using the Json module.The Json file has US 
 ## Documentation
 1. Downlaod the FinalProject.py script from Python folder.
 2. Download the data.json file and save it on your C://.
-3. Download California.jpeg,Texas.jpeg,Florida.jpeg,NewYork.jpeg and Illinois.Jpeg, save them in your C://.
+3. Download California.Jpg,Texas.Jpg,Florida.Jpg,NewYork.Jpg and Illinois.Jpg, save them in your C://.
 4. Install Json module by typing the following command in powershell/Visual studio Code.
   ```
   pip install Json
@@ -20,6 +20,8 @@ The python script loads a local file using the Json module.The Json file has US 
   ```
 6. Run the FinalProject.py script in visual studio code.You should be prompted to Input the states named above.
 
+## Links
+[Final Project](https://github.uc.edu/patelm7/it3038c-scripts/blob/master/python/FinalProject.py)
 
 ## Lab 8
 
