@@ -1,13 +1,27 @@
-## Lab 9
+## Final Project
 
 ### Script Name
- Lab9.py
+ FinalProject.py
  
 ## About
-The python script calls on node api script and returns a list of widget names and their respective colors. The best way to run the script is run both  script is a python webscraping script.The script get top Tech headlines from the verge website.
+The python script loads a local file using the Json module.The Json file has US state names and their population estimates.When the script is executed the user has to input California,Texas,Florida,New York or Illinois(Top 5 populated states) to get the population estimated.The script also uses the pygame module to display a window with an image of each state inputted.
 
+## Documentation
+1. Downlaod the FinalProject.py script from Python folder.
+2. Download the data.json file and save it on your C://.
+3. Download California.Jpg,Texas.Jpg,Florida.Jpg,NewYork.Jpg and Illinois.Jpg, save them in your C://.
+4. Install Json module by typing the following command in powershell/Visual studio Code.
+  ```
+  pip install Json
+  ```
+5. Install Pygame module by typing the following command in powershell/Visual studio Code
+  ```
+  pip install Pygame
+  ```
+6. Run the FinalProject.py script in visual studio code.You should be prompted to Input the states named above.
 
-
+## Links
+[Final Project](https://github.uc.edu/patelm7/it3038c-scripts/blob/master/python/FinalProject.py)
 
 ## Lab 8
 
